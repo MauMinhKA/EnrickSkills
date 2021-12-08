@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        app:layout_constraintTop_toBottomOf="@+id/txtDate"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        app:layout_constraintTop_toBottomOf="@+id/txtAverage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        app:layout_constraintTop_toBottomOf="@+id/txtPressure"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        app:layout_constraintTop_toBottomOf="@+id/txtHumidity"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

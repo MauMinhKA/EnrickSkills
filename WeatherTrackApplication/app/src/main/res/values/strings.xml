@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weather Track Application</string>
+    <string name="enter_your_city">enter your city</string>
+</resources>
